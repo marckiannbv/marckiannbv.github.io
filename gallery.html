@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Marc Kiann</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="resume.html">My Resume</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
+    <main class="main-content">
+        <!-- Gallery Hero -->
+        <section class="gallery-hero">
+            <h1 class="gallery-title">GALLERY</h1>
+            <p class="gallery-subtitle">A collection of moments and memories captured in time</p>
+        </section>
+
+        <!-- Gallery Filters -->
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="personal">Personal</button>
+            <button class="filter-btn" data-filter="work">Work</button>
+            <button class="filter-btn" data-filter="travel">Travel</button>
+        </div>
+
+        <!-- Gallery Container -->
+        <section class="gallery-container">
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="personal">
+                    <img src="images/img2.0.jpg" alt="Personal moment">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">Personal Moment</h3>
+                            <p class="overlay-description">A special captured memory</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="work">
+                    <img src="images/img2.1.jpeg" alt="Work project">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">Project Showcase</h3>
+                            <p class="overlay-description">Professional achievement</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="travel">
+                    <img src="images/img2.2.jpeg" alt="Travel adventure">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">Adventure</h3>
+                            <p class="overlay-description">Exploring new horizons</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="personal">
+                    <img src="images/img2.3.jpeg" alt="Another moment">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">Life Snapshot</h3>
+                            <p class="overlay-description">Capturing life's beauty</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="work">
+                    <img src="images/img2.4.jpeg" alt="Creative work">
+                    <div class="image-overlay">
+                        <div class="overlay-content">
+                            <h3 class="overlay-title">Creative Process</h3>
+                            <p class="overlay-description">Innovation in action</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox overlay -->
+    <div class="lightbox-overlay" id="lightbox">
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </div>
+
+    <script>
+        // Gallery filtering functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                galleryItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'scale(1) translateY(0)';
+                        }, 100);
+                    } else {
+                        item.style.opacity = '0';
+                        item.style.transform = 'scale(0.8) translateY(50px)';
+                        setTimeout(() => {
+                            item.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+
+        // Lightbox functionality
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const galleryImages = document.querySelectorAll('.gallery-item img');
+
+        galleryImages.forEach(img => {
+            img.addEventListener('click', (e) => {
+                e.preventDefault();
+                lightboxImg.src = img.src;
+                lightbox.style.display = 'flex';
+                setTimeout(() => {
+                    lightbox.style.opacity = '1';
+                }, 10);
+            });
+        });
+
+        // Close lightbox
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.style.opacity = '0';
+                setTimeout(() => {
+                    lightbox.style.display = 'none';
+                }, 300);
+            }
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && lightbox.style.display === 'flex') {
+                lightbox.style.opacity = '0';
+                setTimeout(() => {
+                    lightbox.style.display = 'none';
+                }, 300);
+            }
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationPlayState = 'running';
+                }
+            });
+        }, observerOptions);
+
+        galleryItems.forEach(item => {
+            observer.observe(item);
+        });
+    </script>
+</body>
+</html>
