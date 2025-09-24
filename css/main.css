@@ -196,3 +196,64 @@ header:hover {
         padding: 1rem;
     }
 }
+/* Hide the checkbox itself */
+.menu-checkbox {
+    display: none;
+}
+
+/* Hamburger icon default */
+.menu-icon {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.8rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    z-index: 1100;
+    transition: color 0.3s ease;
+}
+
+.menu-icon:hover {
+    color: var(--primary-color);
+}
+
+/* Responsive menu */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background: rgba(15, 15, 35, 0.95);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Show menu when checkbox is checked */
+    .menu-checkbox:checked ~ .nav-menu {
+        display: flex;
+    }
+
+    .nav-menu a {
+        width: 100%;
+        padding: 0.8rem 1rem;
+        text-align: left;
+        border-radius: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-menu a {
+        font-size: 0.9rem;
+        padding: 0.7rem 0.8rem;
+    }
+}
+
