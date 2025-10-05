@@ -4,24 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - Marc Kiann Villaganes</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/midterm.css">
+
 </head>
 <body>
     <!-- Floating particles -->
     <div class="particles" id="particles"></div>
     
-    <header>
-        <!-- Hidden checkbox acts as toggle -->
-        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
-        <label for="menu-toggle" class="menu-icon">☰</label>
-        <nav class="nav-menu">
-            <a href="index.html">Home</a>
-            <a href="resume.html">My Resume</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="activity12.html">Activity12</a>
-        </nav>
-    </header>
+    <div id="navbar"></div>
 
     <!-- Floating shapes background -->
     <div class="floating-shapes">
@@ -149,11 +139,11 @@
                 <h2 class="section-title">Professional References</h2>
                 <div class="reference-grid">
                     <div class="reference-card">
-                        <div class="reference-name">JEFF ALDRIN T. ALDACA</div>
+                        <div class="reference-name">JET ALDRIN T. ALDACA</div>
                         <div class="reference-detail"><strong>Agency:</strong> COMELEC</div>
                         <div class="reference-detail"><strong>Position:</strong> ELECTION OFFICER-II</div>
                         <div class="reference-detail"><strong>Contact:</strong> 09123456789</div>
-                        <div class="reference-detail"><strong>Email:</strong> jeffaldrinaldaca@gmail.com</div>
+                        <div class="reference-detail"><strong>Email:</strong> jetaldrinaldaca@gmail.com</div>
                     </div>
                     <div class="reference-card">
                         <div class="reference-name">RONNEL CHRISTIAN P. SALAS</div>
@@ -172,102 +162,7 @@
         📄
     </button>
 
-    <script>
-        // Animate skill progress bars on scroll
-        const skillProgresses = document.querySelectorAll('.skill-progress');
-        
-        const observeSkills = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const progress = entry.target;
-                    const width = progress.style.width;
-                    progress.style.width = '0%';
-                    setTimeout(() => {
-                        progress.style.width = width;
-                    }, 200);
-                }
-            });
-        }, { threshold: 0.5 });
+    <script src="js/myvid.js"></script>
 
-        skillProgresses.forEach(skill => {
-            observeSkills.observe(skill);
-        });
-
-        // Download functionality (placeholder)
-        document.getElementById('downloadBtn').addEventListener('click', () => {
-            // In a real implementation, this would download a PDF
-            alert('Resume download feature - would download PDF in real implementation');
-        });
-
-        // Add parallax effect to floating shapes
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const shapes = document.querySelectorAll('.shape');
-            
-            shapes.forEach((shape, index) => {
-                const speed = 0.2 + (index * 0.1);
-                shape.style.transform = `translateY(${scrolled * speed}px) rotate(${scrolled * 0.1}deg)`;
-            });
-        });
-
-        // Add entrance animations to sections
-        const sections = document.querySelectorAll('.section');
-        const observeSections = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, { 
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        });
-
-        sections.forEach(section => {
-            section.style.opacity = '0';
-            section.style.transform = 'translateY(30px)';
-            section.style.transition = 'all 0.6s ease-out';
-            observeSections.observe(section);
-        });
-
-                // Create floating particles
-        function createParticles() {
-            const particlesContainer = document.getElementById('particles');
-            
-            for (let i = 0; i < 50; i++) {
-                const particle = document.createElement('div');
-                particle.className = 'particle';
-                
-                // Random properties
-                const size = Math.random() * 4 + 2;
-                const left = Math.random() * 100;
-                const animationDuration = Math.random() * 10 + 10;
-                const delay = Math.random() * 15;
-                
-                particle.style.cssText = `
-                    width: ${size}px;
-                    height: ${size}px;
-                    left: ${left}%;
-                    animation-duration: ${animationDuration}s;
-                    animation-delay: ${delay}s;
-                `;
-                
-                particlesContainer.appendChild(particle);
-            }
-        }
-
-        // Initialize particles when page loads
-        window.addEventListener('load', createParticles);
-
-        // Add scroll effect to hero
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const hero = document.querySelector('.hero-section');
-            if (hero) {
-                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
-            }
-        });
-    </script>
 </body>
 </html>
