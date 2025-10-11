@@ -89,30 +89,7 @@ I'm a passionate developer from the Philippines who loves building innovative so
 
 ---
 
-## 💼 What I'm Working On
 
-```javascript
-const marc = {
-    location: "Quezon City, Metro Manila, Philippines",
-    role: "Software Developer",
-    currentFocus: [
-        "Building full-stack applications",
-        "Learning cloud technologies",
-        "Exploring AI/ML integration",
-        "Contributing to open-source"
-    ],
-    interests: [
-        "Web Development",
-        "Mobile Development", 
-        "Cloud Computing",
-        "DevOps",
-        "System Design"
-    ],
-    funFact: "I debug code better with coffee ☕"
-};
-```
-
----
 
 ## 🎯 Current Goals
 
