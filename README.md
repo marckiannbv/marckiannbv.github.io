@@ -8,7 +8,6 @@
   
   [![GitHub followers](https://img.shields.io/github/followers/marcvillaganes?style=for-the-badge&color=2E86AB)](https://github.com/marcvillaganes)
   [![GitHub stars](https://img.shields.io/github/stars/marcvillaganes?style=for-the-badge&color=2E86AB)](https://github.com/marcvillaganes)
-  [![Years Badge](https://badges.pufler.dev/years/marcvillaganes?style=for-the-badge&color=2E86AB)](https://badges.pufler.dev)
   
 </div>
 
@@ -86,14 +85,9 @@ I'm a **passionate senior developer** with extensive experience in building scal
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=marcvillaganes&theme=tokyonight" alt="GitHub Streak" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=marcvillaganes&theme=tokyo-night&hide_border=true" />
-</div>
-
 ---
 
 ## 💼 What I Do
-
 ```yaml
 role: Senior Developer
 focus:
@@ -114,72 +108,3 @@ interests:
   - DevOps & CI/CD
   - Machine Learning
   - Open Source
-```
-
----
-
-## 🌟 Featured Projects
-
-<div align="center">
-
-[![Project 1](https://github-readme-stats.vercel.app/api/pin/?username=marcvillaganes&repo=awesome-project-1&theme=tokyonight)](https://github.com/marcvillaganes/awesome-project-1)
-[![Project 2](https://github-readme-stats.vercel.app/api/pin/?username=marcvillaganes&repo=awesome-project-2&theme=tokyonight)](https://github.com/marcvillaganes/awesome-project-2)
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=marcvillaganes&theme=tokyonight&no-frame=true&row=1&column=7" />
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=marcvillaganes&show_icons=true&theme=radical&hide_border=true" />
-</div>
-
----
-
-## 🎯 Current Focus
-
-- 🔥 **Cloud Architecture**: Designing scalable cloud-native solutions
-- 🤖 **AI Integration**: Incorporating machine learning into web applications
-- 🚀 **Performance**: Optimizing applications for speed and efficiency
-- 📚 **Mentoring**: Helping junior developers grow their skills
-- 🌍 **Open Source**: Contributing to meaningful projects
-
----
-
-## 📫 Let's Connect!
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marc.villaganes@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/marc-villaganes)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/marc_villaganes)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://marc-portfolio.dev)
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=marcvillaganes&color=2E86AB&style=for-the-badge" />
-</div>
-
-<div align="center">
-  
-  **"Code is like humor. When you have to explain it, it's bad."** – Cory House
-  
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer" />
-</div>
