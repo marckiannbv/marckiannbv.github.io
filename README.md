@@ -21,7 +21,6 @@ I'm a passionate developer from the Philippines who loves building innovative so
 - 🌱 Always learning and staying updated with the latest technologies
 - 💡 Interested in full-stack development, cloud computing, and modern web technologies
 - 🎯 Goal: Contributing to open-source and building impactful applications
-- 📍 Based in Quezon City, Metro Manila, Philippines
 
 ---
 
