@@ -1,150 +1,348 @@
-# Hi there! 👋 I'm Marc Kiann B. Villaganes
+# 🌐 Marc Kiann B. Villaganes - Online Portfolio
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=2E86AB&center=true&vCenter=true&width=500&lines=Software+Developer;Problem+Solver;Continuous+Learner;Tech+Enthusiast" alt="Typing SVG" />
-</div>
+A modern, responsive portfolio website showcasing my skills, projects, and professional journey as an Information Technology student and aspiring Software Engineer.
 
-<div align="center">
-  
-  [![GitHub followers](https://img.shields.io/github/followers/yourusername?style=for-the-badge&color=2E86AB)](https://github.com/yourusername)
-  [![GitHub stars](https://img.shields.io/github/stars/yourusername?style=for-the-badge&color=2E86AB)](https://github.com/yourusername)
-  
-</div>
+![Portfolio Preview](assets/portfolio-preview.png)
+
+## 🚀 Live Demo
+
+[View Live Portfolio](#) <!-- Add your live URL here -->
 
 ---
 
-## 🚀 About Me
+## 📋 Table of Contents
 
-I'm a passionate developer from the Philippines who loves building innovative solutions and exploring new technologies. I believe in writing clean, efficient code and continuously improving my skills.
-
-- 🔭 Currently working on exciting projects and expanding my tech stack
-- 🌱 Always learning and staying updated with the latest technologies
-- 💡 Interested in full-stack development, cloud computing, and modern web technologies
-- 🎯 Goal: Contributing to open-source and building impactful applications
-
----
-
-## 🛠️ Tech Stack & Skills
-
-<div align="center">
-
-### Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### Frontend Development
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-### Backend Development
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
-### Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-### Tools & Technologies
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-
-</div>
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Sections](#sections)
+- [Installation](#installation)
+- [File Structure](#file-structure)
+- [Browser Support](#browser-support)
+- [Future Enhancements](#future-enhancements)
+- [Contact](#contact)
+- [License](#license)
 
 ---
 
-## 📊 GitHub Stats
+## 📖 About
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&langs_count=8&theme=tokyonight"/>
-</div>
+This online portfolio serves as a comprehensive showcase of my work, skills, and experiences in the field of Information Technology. It provides potential employers, collaborators, and clients with an interactive view of my technical capabilities and professional growth.
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight" alt="GitHub Streak" />
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yourusername&theme=tokyonight&no-frame=true&row=1&column=7" />
-</div>
+**Key Highlights:**
+- ✨ Modern, clean design
+- 📱 Fully responsive layout
+- 🌓 Dark/Light theme toggle
+- 🎬 Video gallery with fullscreen support
+- 📧 Working contact form
+- 🎨 Smooth animations and transitions
 
 ---
 
+## ✨ Features
 
+### Theme System
+- **Dark Mode** (default) and **Light Mode**
+- Persistent theme preference using localStorage
+- Smooth theme transition animations
 
-## 🎯 Current Goals
+### Interactive Elements
+- **Animated Typing Effect** - Dynamic role display on hero section
+- **Project Modals** - Detailed project information with click interaction
+- **Smooth Scrolling** - Seamless navigation between sections
+- **Active Navigation** - Highlights current section in navbar
+- **Back to Top Button** - Quick return to top of page
 
-- 🚀 **Learning**: Exploring advanced React patterns and cloud architectures
-- 💻 **Building**: Creating projects that solve real-world problems
-- 🌟 **Contributing**: Getting more involved in open-source communities
-- 📚 **Growing**: Continuously expanding my knowledge in software development
-- 🤝 **Collaborating**: Working with other developers on exciting projects
+### Video Gallery
+- HTML5 video player with custom controls
+- Fullscreen button (appears on hover)
+- Double-click fullscreen support
+- Responsive video containers
+- Cross-browser compatible
 
----
+### Contact Form
+- Client-side validation
+- Email format verification
+- Required field checking
+- Success/error status messages
 
-## 📫 Let's Connect!
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://yourportfolio.com)
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=yourusername&color=2E86AB&style=for-the-badge" alt="Profile views" />
-</div>
-
-<div align="center">
-  
-### 💭 Quote of the Day
-  
-*"The best way to predict the future is to invent it."* – Alan Kay
-  
-</div>
+### Responsive Design
+- Mobile-first approach
+- Hamburger menu for mobile devices
+- Optimized for all screen sizes
+- Touch-friendly interface
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
-</div>
+## 🛠️ Technologies Used
+
+### Frontend
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with CSS variables
+- **JavaScript (ES6+)** - Interactive functionality
+- **Bootstrap 5.3.2** - Responsive grid system
+
+### Libraries & Frameworks
+- **Font Awesome 6.4.0** - Icon library
+- **AOS 2.3.1** - Animate On Scroll library
+- **Google Fonts** - Poppins & Inter typefaces
+
+### Tools
+- Git & GitHub - Version control
+- VS Code - Code editor
 
 ---
 
-### ⚡ Fun Facts About Me
+## 📑 Sections
 
-- 🎮 Gamer at heart
-- ☕ Coffee enthusiast
-- 🌏 Proud Filipino developer
-- 📖 Always reading tech blogs and documentation
-- 🎵 Code better with music
+### 1. **Home**
+Hero section with:
+- Animated typing effect showing roles
+- Professional introduction
+- Call-to-action buttons
+- Social media links
+- Profile image with border animation
+
+### 2. **About**
+- Personal introduction and purpose
+- Educational background
+- Technical focus areas
+- Skills showcase with progress bars (8 technologies)
+
+### 3. **Portfolio**
+Featured projects with interactive cards:
+- **School Information System** - Student and faculty management platform
+- **Interactive Portfolio Website** - This project!
+
+Each project includes:
+- Project image
+- Description
+- Technology stack
+- Detailed modal with features and links
+
+### 4. **Experience**
+Timeline display featuring:
+- **On-the-Job Training** at Commission on Elections - Bucay (2025-Present)
+- **Student Developer** - College Projects (2022-2025)
+
+### 5. **Gallery**
+Mixed media gallery with:
+- Professional photos
+- Project screenshots
+- Video demonstrations (2 videos)
+- Fullscreen video support
+
+### 6. **Contact**
+- Contact information (Email, Phone, Location)
+- Availability hours
+- Social media links
+- Contact form with validation
+
+---
+
+## 💻 Installation
+
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+- A local web server (optional, for testing)
+
+### Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/marckiannbv/portfolio.git
+   ```
+
+2. **Navigate to project directory**
+   ```bash
+   cd portfolio
+   ```
+
+3. **Open in browser**
+   - Simply open `index.html` in your browser
+   - Or use a local server:
+   ```bash
+   # Using Python
+   python -m http.server 8000
+   
+   # Using Node.js
+   npx http-server
+   ```
+
+4. **View in browser**
+   - Open `http://localhost:8000` in your browser
+
+### Customization
+
+To customize the portfolio for your own use:
+
+1. **Update personal information** in `index.html`:
+   - Name, title, bio
+   - Contact details
+   - Social media links
+
+2. **Modify theme colors** in `styles.css`:
+   ```css
+   :root {
+       --primary-color: #3b82f6;
+       --secondary-color: #2563eb;
+       /* ... more variables */
+   }
+   ```
+
+3. **Add your projects** in `script.js`:
+   ```javascript
+   const projectsData = {
+       'Your Project Name': {
+           features: [...],
+           tech: [...],
+           github: '...',
+           demo: '...'
+       }
+   };
+   ```
+
+4. **Replace assets**:
+   - Add your photos/videos to `assets/` folder
+   - Update image paths in HTML
+
+---
+
+## 📁 File Structure
+
+```
+portfolio/
+├── index.html              # Main HTML file
+├── styles.css              # All CSS styles
+├── script.js               # JavaScript functionality
+├── README.md               # This file
+└── assets/                 # Media files
+    ├── profile_img.png     # Profile photo
+    ├── project2.png        # School system screenshot
+    ├── project4.png        # Portfolio screenshot
+    ├── project-video_1.mp4 # Demo video 1
+    ├── project-video_2.mp4 # Demo video 2
+    └── favicon.png         # Site favicon
+```
+
+---
+
+## 🌐 Browser Support
+
+- ✅ Chrome (latest)
+- ✅ Firefox (latest)
+- ✅ Safari (latest)
+- ✅ Edge (latest)
+- ✅ Opera (latest)
+
+**Mobile Browsers:**
+- ✅ iOS Safari
+- ✅ Chrome Mobile
+- ✅ Samsung Internet
+
+---
+
+## 🎯 Key Features Breakdown
+
+### Technical Skills Display
+- Progress bars showing proficiency levels
+- 8 core technologies: HTML5, CSS3, JavaScript, PHP, Python, Java, MySQL, Bootstrap
+- Visual skill representation
+
+### Project Showcase
+- Interactive project cards
+- Hover effects and animations
+- Modal popups with detailed information
+- Technology badges
+- Feature lists
+- GitHub and demo links
+
+### Video Integration
+- Native HTML5 video player
+- Custom fullscreen functionality
+- Responsive video containers
+- Optimized for mobile viewing
+
+---
+
+## 🚀 Future Enhancements
+
+- [ ] Add downloadable PDF resume
+- [ ] Implement blog section
+- [ ] Add testimonials/recommendations
+- [ ] Include certifications section
+- [ ] Add more project case studies
+- [ ] Implement contact form backend
+- [ ] Add Google Analytics
+- [ ] Add more interactive animations
+- [ ] Create project filtering system
+- [ ] Add loading animations
+
+---
+
+## 📧 Contact
+
+**Marc Kiann B. Villaganes**
+
+- 📧 Email: marckiann.villaganes@email.com
+- 📱 Phone: +63 123 456 7890
+- 📍 Location: Patoc, Bucay, Abra - Philippines
+- 💼 LinkedIn: [Marc Kiann Villaganes](https://www.linkedin.com/in/marc-kiann-villaganes-986995366/)
+- 🐙 GitHub: [@marckiannbv](https://github.com/marckiannbv/)
+- 📘 Facebook: [marc.kiann](https://www.facebook.com/marc.kiann)
+- 📷 Instagram: [@marc_kiann_villaganes](https://www.instagram.com/marc_kiann_villaganes/)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgments
+
+- **Bootstrap** - Responsive framework
+- **Font Awesome** - Icon library
+- **AOS Library** - Scroll animations
+- **Google Fonts** - Typography
+- **Unsplash** - Stock images (if used)
+
+---
+
+## 📸 Screenshots
+
+### Desktop View
+![Desktop Home](assets/screenshots/desktop-home.png)
+![Desktop Portfolio](assets/screenshots/desktop-portfolio.png)
+
+### Mobile View
+![Mobile Home](assets/screenshots/mobile-home.png)
+![Mobile Menu](assets/screenshots/mobile-menu.png)
+
+### Theme Toggle
+![Dark Theme](assets/screenshots/dark-theme.png)
+![Light Theme](assets/screenshots/light-theme.png)
+
+---
+
+## 💡 Tips for Using This Portfolio
+
+1. **Keep it updated** - Regularly add new projects and skills
+2. **Optimize images** - Compress images for faster loading
+3. **Test responsiveness** - Check on different devices
+4. **Update contact info** - Keep your contact details current
+5. **Add analytics** - Track visitors to understand traffic
+6. **SEO optimization** - Update meta tags for better visibility
 
 ---
 
 <div align="center">
-  
-**Thanks for visiting! Feel free to explore my repositories and don't hesitate to reach out!** 😊
-  
+
+### ⭐ Star this repo if you find it helpful!
+
+Made with ❤️ by Marc Kiann B. Villaganes
+
+**© 2025 Marc Kiann B. Villaganes. All Rights Reserved.**
+
 </div>
