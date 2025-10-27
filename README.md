@@ -66,6 +66,17 @@ This online portfolio serves as a comprehensive showcase of my work, skills, and
 - Required field checking
 - Success/error status messages
 
+### Downloadable Resume
+- Professional PDF resume
+- One-click download
+- Comprehensive information including:
+  - Education and GPA
+  - Technical skills and proficiency
+  - Professional experience
+  - Key projects with descriptions
+  - Core competencies
+  - Contact information
+
 ### Responsive Design
 - Mobile-first approach
 - Hamburger menu for mobile devices
@@ -108,6 +119,7 @@ Hero section with:
 - Educational background
 - Technical focus areas
 - Skills showcase with progress bars (8 technologies)
+- **Downloadable PDF Resume** - Professional resume in PDF format
 
 ### 3. **Portfolio**
 Featured projects with interactive cards:
@@ -222,7 +234,8 @@ portfolio/
     ├── project4.png        # Portfolio screenshot
     ├── project-video_1.mp4 # Demo video 1
     ├── project-video_2.mp4 # Demo video 2
-    └── favicon.png         # Site favicon
+    ├── favicon.png         # Site favicon
+    └── Marc_Kiann_Villaganes_Resume.pdf  # Downloadable PDF resume
 ```
 
 ---
@@ -267,7 +280,7 @@ portfolio/
 
 ## 🚀 Future Enhancements
 
-- [ ] Add downloadable PDF resume
+- [x] Add downloadable PDF resume ✅ **COMPLETED**
 - [ ] Implement blog section
 - [ ] Add testimonials/recommendations
 - [ ] Include certifications section
