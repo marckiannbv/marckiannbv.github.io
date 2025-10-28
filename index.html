@@ -3,80 +3,541 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marc Kiann - Portfolio</title>
-    <link rel="stylesheet" href="css/midterm.css">
-
+    <meta name="description" content="Marc Kiann B. Villaganes - Information Technology Student | Aspiring Software Engineer & Web Developer">
+    <meta name="keywords" content="portfolio, web developer, software engineer, information technology, BSIT">
+    <meta name="author" content="Marc Kiann B. Villaganes">
+    <title>Marc Kiann B. Villaganes – Online Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Bootstrap 5 CSS Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Floating particles -->
-    <div class="particles" id="particles"></div>
+    <!-- Navigation Bar Start-->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">MKV <span>.</span></a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-sun theme-icon"></i>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar End-->
 
-    <div id="navbar"></div>
-
-    <main class="main-content">
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <div class="floating-element">
-                <div class="floating-shape"></div>
-            </div>
-            <div class="floating-element">
-                <div class="floating-shape"></div>
-            </div>
-            <div class="floating-element">
-                <div class="floating-shape"></div>
-            </div>
-            
-            <div class="hero-content">
-                <h1 class="hero-title">MARC KIANN</h1>
-                <p class="hero-subtitle">
-                    Innovative IT Professional & Creative Developer<br>
-                    Crafting digital experiences with passion and precision
+    <!-- Home Section Start-->
+    <section id="home" class="home-section">
+        <div class="home-container">
+            <div class="home-content" data-aos="fade-right" data-aos-duration="1000">
+                <h3 class="greeting">Hello, I'm</h3>
+                <h1 class="name">Marc Kiann B. Villaganes</h1>
+                <h2 class="tagline">
+                    <span class="typed-text"></span>
+                    <span class="cursor">&nbsp;</span>
+                </h2>
+                <p class="intro-text">
+                    A passionate Information Technology student with a drive to create innovative solutions 
+                    through code. I specialize in web development and software engineering, turning 
+                    ideas into functional, user-friendly applications.
                 </p>
-                <div class="hero-buttons">
-                    <a href="resume.html" class="btn-primary">View Resume</a>
-                    <a href="gallery.html" class="btn-secondary">Explore Gallery</a>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/marckiannbv/" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/marc-kiann-villaganes-986995366/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/marc.kiann" target="_blank" rel="noopener" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/marc_kiann_villaganes/" target="_blank" rel="noopener" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
             </div>
-        </section>
+            <div class="home-image" data-aos="fade-left" data-aos-duration="1000">
+                <div class="image-wrapper">
+                    <img src="assets/profile_img.png" alt="Marc Kiann B. Villaganes">
+                    <div class="image-border"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+    <!-- Home Section End-->
 
-        <!-- Features Section -->
-        <section class="features-section">
-            <h2 class="section-title">What I Do</h2>
-            <p class="section-subtitle">
-                Passionate about technology and creative solutions that make a difference
-            </p>
+    <!-- About Section Start-->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content row">
+                <div class="about-text col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                    <h3>Purpose of This Portfolio</h3>
+                    <p>
+                        Welcome to my digital portfolio! This website serves as a comprehensive showcase 
+                        of my journey as an Information Technology student and aspiring Software Engineer. It's 
+                        designed to provide potential employers, collaborators, and clients with an 
+                        interactive view of my technical skills, projects, and professional growth.
+                    </p>
+                    <h3>Who I Am</h3>
+                    <p>
+                        I'm a dedicated IT professional with a strong foundation in programming, web 
+                        development, and software engineering principles. My passion lies in creating 
+                        elegant solutions to complex problems and building applications that make a 
+                        positive impact. I believe in continuous learning and staying updated with the 
+                        latest technologies and industry best practices.
+                    </p>
+                    <p>
+                        My core values include integrity, innovation, and collaboration. I approach 
+                        every project with attention to detail and a commitment to delivering 
+                        high-quality results.
+                    </p>
+                </div>
+                <div class="about-info col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="info-card card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Education</h4>
+                        <p><strong>Bachelor of Science in Information Technology</strong></p>
+                        <p>Data Center College of the Philippines - Bangued, Abra</p>
+                        <p>SY: 2025 - Present</p>
+                        <p></p>
+                    </div>
+                    <div class="info-card card">
+                        <i class="fas fa-code"></i>
+                        <h4>Technical Focus</h4>
+                        <p>Full-Stack Web Development</p>
+                        <p>Software Engineering</p>
+                        <p>UI/UX Design</p>
+                        <p>Database Management</p>
+                    </div>
+                </div>
+            </div>
             
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">💻</div>
-                    <h3 class="feature-title">Web Development</h3>
-                    <p class="feature-description">
-                        Creating responsive and interactive web applications using modern technologies and best practices.
-                    </p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">🎨</div>
-                    <h3 class="feature-title">UI/UX Design</h3>
-                    <p class="feature-description">
-                        Designing intuitive user interfaces that provide exceptional user experiences and visual appeal.
-                    </p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3 class="feature-title">Performance Optimization</h3>
-                    <p class="feature-description">
-                        Optimizing applications for speed, efficiency, and scalability to deliver outstanding performance.
-                    </p>
+            <!-- Download Resume Button -->
+            <div class="resume-download-section" data-aos="fade-up" data-aos-delay="350">
+                <a href="assets/Marc_Kiann_Villaganes_Resume.pdf" download="Marc_Kiann_Villaganes_Resume.pdf" class="btn-download-resume">
+                    <i class="fas fa-download"></i> Download Resume (PDF)
+                </a>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="skills-container" data-aos="fade-up" data-aos-delay="400">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <h4>HTML5</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <h4>CSS3</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <h4>JavaScript</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-php"></i>
+                        <h4>PHP</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <h4>MySQL</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-bootstrap"></i>
+                        <h4>Bootstrap</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+    <!-- About Section End-->
 
+    <!-- Portfolio Section Start-->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+            <div class="portfolio-grid">
+                <!-- School Information System -->
+                <div class="portfolio-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="assets/project2.png" alt="School Information System">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>School Information System</h3>
+                        <p>An online school information system designed to easily share and promote important details about the school, including announcements, events, and programs.</p>
+                        <div class="portfolio-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
 
-    <script src="js/myvid.js"></script>
+                <!-- Interactive Portfolio Website -->
+                <div class="portfolio-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <img src="assets/project4.png" alt="Interactive Portfolio Website">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Interactive Portfolio Website</h3>
+                        <p>Responsive portfolio with modern design, smooth animations, and dark/light theme toggle</p>
+                        <div class="portfolio-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section End-->
 
+    <!-- Experience Section Start-->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>On-the-Job Training (OJT)</h3>
+                        <h4>Commission on Elections - Bucay</h4>
+                        <p>Assisting in various office and technical tasks, organizing election-related documents, and supporting staff in daily operations while gaining hands-on experience in government procedures and public service.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Student Developer</h3>
+                        <h4>College Projects</h4>
+                        <p>Created various academic projects including management systems, demonstrating proficiency in multiple programming languages and frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience Section End-->
+
+    <!-- Gallery Section Start-->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Photo 1 -->
+                <div class="gallery-item gallery-photo" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/profile_img.png" alt="Gallery Photo 1">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- Photo 2 -->
+                <div class="gallery-item gallery-photo" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="assets/personal-img1.jpeg" alt="Gallery Photo 2">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- Photo 2 -->
+                <div class="gallery-item gallery-photo" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="assets/personal-img2.jpeg" alt="Gallery Photo 2">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                <!-- Video 1 -->
+                <div class="gallery-item gallery-video" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="video-container">
+                        <video class="gallery-video-player" controls>
+                            <source src="assets/project-video_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <button class="fullscreen-btn" aria-label="Fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="gallery-item gallery-video" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="video-container">
+                        <video class="gallery-video-player" controls>
+                            <source src="assets/project-video2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <button class="fullscreen-btn" aria-label="Fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="gallery-item gallery-video" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="video-container">
+                        <video class="gallery-video-player" controls>
+                            <source src="assets/project-video_3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <button class="fullscreen-btn" aria-label="Fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section End-->
+
+    <!-- Contact Section Start-->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>marckiannvillaganes@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+63 9052769204</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Patoc, Bucay, Abra - Philippines</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Availability</h4>
+                            <p>Monday - Friday, 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links-contact">
+                        <a href="https://github.com/marckiannbv/" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/marc-kiann-villaganes-986995366/" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/marc.kiann" target="_blank" rel="noopener">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/marc_kiann_villaganes/" target="_blank" rel="noopener">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left" data-aos-delay="200">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group mb-3">
+                            <label for="name" class="form-label">Your Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email" class="form-label">Your Email *</label>
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="youremail@example.com">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Project Inquiry">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="message" class="form-label">Your Message *</label>
+                            <textarea id="message" name="message" rows="6" class="form-control" required placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                    <div id="formStatus" class="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End-->
+
+    <!-- Footer Start-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Marc Kiann B. Villaganes</h3>
+                    <p>Aspiring Software Engineer | Web Developer | Tech Enthusiast</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Me</h4>
+                    <div class="footer-social">
+                        <a href="https://github.com/marckiannbv/" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/marc-kiann-villaganes-986995366/" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/marc.kiann" target="_blank" rel="noopener">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/marc_kiann_villaganes/" target="_blank" rel="noopener">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> marckiannvillaganes@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Patoc, Bucay, Abra - Philippines</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Marc Kiann B. Villaganes. All Rights Reserved.</p>
+                <p>Designed & Developed with <i class="fas fa-heart"></i> by Marc Kiann</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End-->
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Bootstrap 5 JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="project-modal">
+        <div class="project-modal-content">
+            <button class="project-modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="project-modal-image">
+                <img id="modalImage" src="" alt="">
+            </div>
+            <div class="project-modal-body">
+                <div class="project-modal-header">
+                    <h2 class="project-modal-title" id="modalTitle"></h2>
+                    <p class="project-modal-description" id="modalDescription"></p>
+                </div>
+                <div class="project-modal-tech">
+                    <h4>Technologies Used</h4>
+                    <div class="project-modal-tech-list" id="modalTech"></div>
+                </div>
+                <div class="project-modal-features">
+                    <h4>Key Features</h4>
+                    <ul id="modalFeatures"></ul>
+                </div>
+                <div class="project-modal-links">
+                    <a id="modalGithub" href="#" target="_blank" class="project-modal-btn project-modal-btn-primary">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                    <a id="modalDemo" href="#" target="_blank" class="project-modal-btn project-modal-btn-secondary">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
